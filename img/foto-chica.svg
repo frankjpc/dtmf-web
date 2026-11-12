@@ -1,0 +1,26 @@
+<svg width="340" height="340" viewBox="0 0 340 340" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8c79a"/>
+      <stop offset="60%" stop-color="#d98a5e"/>
+      <stop offset="100%" stop-color="#1f4e5f"/>
+    </linearGradient>
+  </defs>
+  <rect width="340" height="340" fill="url(#sky)"/>
+  <circle cx="255" cy="80" r="34" fill="#f3e3bd" opacity="0.85"/>
+
+  <rect x="55" y="140" width="10" height="120" fill="#3b3a2e"/>
+  <path d="M60 140 Q20 120 10 95" stroke="#4c6444" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M60 140 Q100 115 115 90" stroke="#4c6444" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M60 140 Q35 110 55 80" stroke="#4c6444" stroke-width="9" fill="none" stroke-linecap="round"/>
+
+  <g transform="translate(150,170)">
+    <path d="M10 0 L70 0 L64 18 L16 18 Z" fill="#f7f4ec" stroke="#c9c2ae" stroke-width="2"/>
+    <rect x="18" y="18" width="44" height="46" fill="#f7f4ec" stroke="#c9c2ae" stroke-width="2"/>
+    <rect x="14" y="64" width="6" height="32" fill="#f7f4ec" stroke="#c9c2ae" stroke-width="2"/>
+    <rect x="60" y="64" width="6" height="32" fill="#f7f4ec" stroke="#c9c2ae" stroke-width="2"/>
+    <rect x="18" y="64" width="44" height="8" fill="#e7e0cc"/>
+  </g>
+
+  <text x="170" y="305" text-anchor="middle" font-family="Courier Prime, monospace" font-size="16" fill="#2b2420" letter-spacing="1">debi tirar mas fotos</text>
+</svg>

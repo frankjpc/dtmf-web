@@ -1,0 +1,29 @@
+<svg width="900" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="band" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e4d6b9"/>
+      <stop offset="100%" stop-color="#efe4cd"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="320" fill="url(#band)"/>
+
+  <!-- tira de fotos tipo "photo booth" -->
+  <g>
+    <rect x="60" y="30" width="170" height="260" fill="#fffdf8" stroke="#c9c2ae" stroke-width="2"/>
+    <rect x="78" y="48" width="134" height="100" fill="#1f4e5f"/>
+    <circle cx="145" cy="98" r="28" fill="#e8c79a"/>
+    <rect x="78" y="160" width="134" height="100" fill="#c1502e" opacity="0.85"/>
+    <rect x="110" y="190" width="70" height="46" fill="#fffdf8" opacity="0.5"/>
+  </g>
+
+  <g transform="translate(260,0)">
+    <rect x="60" y="30" width="170" height="260" fill="#fffdf8" stroke="#c9c2ae" stroke-width="2"/>
+    <rect x="78" y="48" width="134" height="100" fill="#4c6444"/>
+    <rect x="78" y="160" width="134" height="100" fill="#e8c79a"/>
+    <path d="M90 230 Q145 190 200 230" stroke="#1f4e5f" stroke-width="6" fill="none"/>
+  </g>
+
+  <text x="640" y="150" font-family="Courier Prime, monospace" font-size="40" font-weight="700" fill="#2b2420">DEBÍ TIRAR</text>
+  <text x="640" y="200" font-family="Courier Prime, monospace" font-size="40" font-weight="700" fill="#c1502e">MÁS FOTOS</text>
+  <text x="640" y="235" font-family="Courier Prime, monospace" font-size="16" fill="#71665a" letter-spacing="2">NOSTALGIA · ISLA · RECUERDOS</text>
+</svg>
