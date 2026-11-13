@@ -87,6 +87,21 @@
 
   <footer>Elaborado por Franklin</footer>
 
+  <script>
+    // Pausa automáticamente cualquier audio o video si se reproduce otro
+    const mediaElements = document.querySelectorAll('audio, video');
+
+    mediaElements.forEach(media => {
+      media.addEventListener('play', () => {
+        mediaElements.forEach(otherMedia => {
+          if (otherMedia !== media && !otherMedia.paused) {
+            otherMedia.pause();
+          }
+        });
+      });
+    });
+  </script>
+
 </body>
 
 </html>
